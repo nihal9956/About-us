@@ -1,0 +1,339 @@
+@media(max-width:320px){
+    .carousel-item{
+
+        height:30vh;
+        min-height:200px;
+        background: no-repeat center center scroll;
+        background-size:cover;
+    }
+    .carousel-caption{
+    
+        bottom:90px;
+    }
+    .carousel-caption h1{
+        font-size:200px;
+    }
+    .container{
+        background-color:transparent;
+        border-radius:10px;
+        margin-top:0;
+    
+    }
+    .navbar-brand img{
+        width:100px;
+    }
+    
+    .navbar-light .navbar-toggler{
+        background-color:white;
+    }
+    .navbar-light .navbar-toggler-icon {
+            margin-top:2px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color:#fff;
+    }
+    .navbar-nav{
+        background-color: black;
+    }
+    .middle{
+
+        background-color:white;
+        width:100%;
+        height:30%;
+    }
+    
+    .geeky-heading{
+        color:#0A3160;
+        opacity:0.10196078431372549;
+       font-size:80px;
+       width:1354px;
+       height:285px;
+       margin-top:0%;
+       margin-left:10%;
+       font-weight: bolder;
+    }
+    span{
+        margin-left:2%;
+        margin-top:-20px;
+    }
+    .ellipse{
+        width: 200px;
+        height: 100px; /* as the half of the width */
+        border-top-left-radius: 165px;  /* 100px of height + 10px of border */
+        border-top-right-radius: 145px; /* 100px of height + 10px of border */
+        border: 20px solid gray;
+        border-bottom: 0;
+        transform: rotateX(180deg);
+        margin-left:25%;
+    }
+    .ellipse-2{
+        width: 200px;
+        height: 100px; /* as the half of the width */
+        border-top-left-radius: 165px;  /* 100px of height + 10px of border */
+        border-top-right-radius: 145px; /* 100px of height + 10px of border */
+        border: 30px solid rgb(190, 188, 188);
+        border-bottom: 0;
+        margin-left:25%;
+        margin-top:40%;
+    }
+    .parent-conatiner{position: relative;}
+    .child-conatiner{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100vw;
+        height:100vh;
+        background-color: rgb(255,255,255,0.5);
+    }
+    .child-conatiner img{
+        width:100vw;
+        height:100vh;
+    }
+    .sub-child-container,.sub-child-container-dev{
+     
+        position:absolute;
+        top:20%;
+        left:20%;
+        color:#0A3160;
+        font-size:10px;
+    
+    }
+    .sub-child-container-para{
+        position:absolute;
+        top:42%;
+        left:25%;
+        color:#0A3160;
+        font-size:20px;
+    }
+    
+    .geeky-para{
+    
+    max-width:100% ;
+    margin-top:-30px;
+    margin-left:-20px;
+    font-size:12px;
+    }
+    p{
+        max-width:100% ;
+    margin-top:-10px;
+    margin-left:-20px;
+    font-size:12px;
+        
+    }
+    
+    .sub-child-container-img img{
+        width:250px;
+        height:auto;
+        margin-left:-60px;
+       
+        margin-top:-10px;
+    }
+
+    .idea-heading{
+        margin-left:30%;
+        color: white;
+        margin-top:5%;
+        font-size:20px;
+    }
+    
+    .idea-para,.degital-para{
+        margin-left:20%;    
+        color:white;
+        width:70%;  
+        word-spacing:5px;
+        padding-bottom:8px;
+        
+        }
+        .idea-span-1,.degital-span-1{
+            color: white;
+            margin-left:20%; 
+            word-spacing:5px;
+            padding-bottom:25px;
+            font-size:12px;
+            width:70%; 
+        
+        }
+        .idea-span-2,.degital-span-2{
+            color: white;
+            margin-left:20%;
+            word-spacing:5px;
+            font-size:12px;
+            width:70%; 
+           
+        }
+        .idea-img img{
+
+            margin-left:-18%;
+            margin-top:20px;
+            width:250px;
+            height:auto;
+        }
+        .idea-para-2{
+            margin-left:20%;   
+            max-width:70%;  
+            margin-top:5%;
+            padding-bottom:8px;
+            color:white;  
+            
+            }
+            .idea-span-3{
+                color: white;
+                margin-left:20%;
+                font-size:12px;
+            
+            }
+        .contact-btn{
+        
+            padding:5px;
+            background-color:#103665;
+            border:2px solid white;
+            color: white;
+            font-weight:bold;
+            font-size:12px;
+            width:150px;
+            margin-left:30%;  
+            margin-top:20px; 
+            border-radius:5px;
+        
+        }
+
+
+        .sub-child-container-dev{
+            width:200%;
+            margin-left:-50px;
+        }
+        .developer-detailes{
+            width:100vw;
+            height:auto;
+            background-color: white;
+        
+        }
+        .dev-span-1{
+            color:#0A3160;
+            font-size:2em;
+            font-weight:500;
+            margin-left:-250px;
+            margin-top:5%;
+        }
+        .dev-span-2{
+            margin-left:-20px;
+            margin-top:-8px;
+        }
+        .dev-para{
+            max-width:100% ;
+        margin-top:10px;
+        }
+        .sub-child-container-img-digital img{
+            width:250px;
+            height:auto;
+            margin-top:-30px;
+            margin-left:-50px;
+        }
+        .dev-ellipse{
+            width: 200px;
+            height: 100px; /* as the half of the width */
+            border-top-left-radius: 165px;  /* 100px of height + 10px of border */
+            border-top-right-radius: 145px; /* 100px of height + 10px of border */
+            border: 30px solid gray;
+            border-bottom: 0;
+            transform: rotateX(180deg);
+            margin-left:35%;
+        }
+        
+        .dev-ellipse-2{
+        
+            width: 200px;
+            height: 100px; /* as the half of the width */
+            border-top-left-radius: 165px;  /* 100px of height + 10px of border */
+            border-top-right-radius: 145px; /* 100px of height + 10px of border */
+            border: 30px solid rgb(190, 188, 188);;
+            border-bottom: 0;   
+            margin-left:10%;
+            margin-top:30%;
+        
+        
+        }
+
+
+        .degital-section{
+            background-size:500px 500px;
+        }
+        
+        .degital-heading{
+            margin-left:15%;
+            font-size:17px;
+        
+            margin-top:5%;
+        }
+        .degital-folk-heading{
+
+    
+            margin-left:15%;
+            font-size:10px;
+            margin-top:20px;
+        }
+        .degital-para{
+            margin-left:20%;
+            padding-bottom:10px;
+            margin-top:20px;
+        }
+        .degital-span-1{
+            margin-left:20%;
+            padding-bottom:25px;
+        }
+        .footer{
+    
+            flex-direction: column;
+         
+            background-size:cover;
+    
+        }
+        .footer-para{
+            padding-left:20px;
+            padding-top:10px;
+            min-width:70%;
+            height:auto;
+            
+        }
+        .col h4{
+            color: white;
+            padding-left:15px;
+            padding-top:10px;
+        }
+        .footer-heading{
+            width:1000%;
+        }
+        .divider{
+        
+            border:1px solid white;
+            width:70%;
+        }
+        
+        h5{
+            color:white;
+            font-size:10px;
+            padding-left:10px;
+            width:200%;
+        }
+        h6{
+            color:white;
+            padding-bottom:10px;
+            width:1000%;
+            padding-left:10px;
+            font-size:10px;
+        }
+
+        .col .footer-para{
+            padding-left:25px;
+        }
+        .contact-para{
+        
+            color:white;
+            width:70%;
+            padding-left:25px;
+            padding-top:10px;
+        }
+}
