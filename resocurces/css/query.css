@@ -1,4 +1,4 @@
-@media(max-width:320px){
+@media(max-width:360px){
     .carousel-item{
 
         height:30vh;
@@ -6,18 +6,13 @@
         background: no-repeat center center scroll;
         background-size:cover;
     }
-    .carousel-caption{
     
-        bottom:90px;
-    }
     .carousel-caption h1{
         font-size:200px;
     }
     .container{
         background-color:transparent;
-        border-radius:10px;
-        margin-top:0;
-    
+       
     }
     .navbar-brand img{
         width:100px;
@@ -42,7 +37,7 @@
 
         background-color:white;
         width:100%;
-        height:30%;
+        height:10%;
     }
     
     .geeky-heading{
@@ -90,7 +85,7 @@
     }
     .child-conatiner img{
         width:100vw;
-        height:100vh;
+        height:80vh;
     }
     .sub-child-container,.sub-child-container-dev{
      
@@ -103,7 +98,7 @@
     }
     .sub-child-container-para{
         position:absolute;
-        top:42%;
+        top:32%;
         left:25%;
         color:#0A3160;
         font-size:20px;
@@ -129,7 +124,19 @@
         height:auto;
         margin-left:-60px;
        
-        margin-top:-10px;
+        margin-top:-150px;
+    }
+    .idea-section{
+
+        background-image:linear-gradient(rgba(0,0,20,0.7),rgba(0,0,20,0.7)),url(../img/img-right-4.png);
+        width:100vw;
+        height:auto;
+        margin-top:0px;
+        padding-bottom:50px;
+        background-size:cover;
+        margin-top:10px;
+        background-position:center top;
+    
     }
 
     .idea-heading{
@@ -219,17 +226,18 @@
             margin-top:5%;
         }
         .dev-span-2{
-            margin-left:-20px;
+            margin-left:-50px;
             margin-top:-8px;
         }
         .dev-para{
             max-width:100% ;
         margin-top:10px;
+        margin-left:-50px;
         }
         .sub-child-container-img-digital img{
             width:250px;
             height:auto;
-            margin-top:-30px;
+            margin-top:-150px;
             margin-left:-50px;
         }
         .dev-ellipse{
@@ -253,11 +261,25 @@
             border-bottom: 0;   
             margin-left:10%;
             margin-top:30%;
+            padding-bottom:0;
+            position:relative;
+            top:300%;
         
         
         }
 
-
+        
+        .degital-section{
+            background-image:linear-gradient(rgba(0,0,20,0.7),rgba(0,0,20,0.7)),url(../img/footer-img.png);
+            width:100vw;
+            height:auto;
+            padding-bottom:50px;
+            background-size:500px 500px;
+           
+            margin-top:50px;
+        
+        
+        }
         .degital-section{
             background-size:500px 500px;
         }
